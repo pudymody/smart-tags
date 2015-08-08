@@ -1,19 +1,18 @@
 {
   "name": "smart-tags",
   "main": "./lib/smart-tags",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Prevent double input of brackest, curly braces, and quotes as in sublime text",
   "keywords": [
-      "sublime",
-      "quotes",
-      "brackets",
-      "curly braces"
+    "sublime",
+    "quotes",
+    "brackets",
+    "curly braces"
   ],
   "repository": "https://github.com/pudymody/smart-tags",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
