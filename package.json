@@ -9,7 +9,7 @@
       "brackets",
       "curly braces"
   ],
-  "repository": "https://github.com/atom/smart-tags",
+  "repository": "https://github.com/pudymody/smart-tags",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
