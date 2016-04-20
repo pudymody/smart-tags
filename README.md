@@ -1,14 +1,13 @@
 # smart-tags
 
-Prevent double input of brackets, curly braces, and quotes as in sublime text when the next char is one of them.
+Prevent double input of brackets, curly braces, and quotes as in sublime text when the next char is one of them. Its like bracket autocomplete, but for opening and closing ones.
 
-![Example 1](https://cloud.githubusercontent.com/assets/1085976/6180121/d675bfcc-b374-11e4-90fe-5e6522d5c20c.gif)
-![Example 2](https://cloud.githubusercontent.com/assets/1085976/6180206/02ce619a-b376-11e4-9841-a562c4c2eb9e.gif)
+If i dont explaint it very well, you can see a demo [without the plugin](https://youtu.be/BSIJKMp5GT8), and one [with the plugin](https://youtu.be/AP4GlXNk4Cg)
 
 # Install
 
 Using `apm`:
 ```
-apm install pigments
+apm install smart-tags
 ```
-Or search for `pigments` in Atom settings view.
+Or search for `smart-tags` in Atom settings view.
