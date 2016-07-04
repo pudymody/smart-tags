@@ -3,7 +3,10 @@ module.exports = SmartTags =
   activate: (state) ->
     atom.workspace.observeTextEditors (editor) ->
       editor.onWillInsertText (evt) ->
-        currentChar = evt.text
+        currentChar = evt.text;
+
+        if currentChar == atom.clipboard.read()
+            return;
 
         point = editor.getCursorBufferPosition();
         nextChar = editor.getTextInBufferRange([[point.row,point.column],[point.row,point.column + 1]]);
