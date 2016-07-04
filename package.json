@@ -1,7 +1,7 @@
 {
   "name": "smart-tags",
   "main": "./lib/smart-tags",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Prevent double input of brackest, curly braces, and quotes as in sublime text",
   "keywords": [
     "sublime",
